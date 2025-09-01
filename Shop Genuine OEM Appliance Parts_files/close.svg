@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.6" height="10.6" viewBox="0 0 10.6 10.6">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;opacity:.9}
+        </style>
+    </defs>
+    <path id="Close_icon" d="M345.64 168a.835.835 0 0 0-1.186 0l-3.86 3.865-3.861-3.865a.839.839 0 0 0-1.186 1.188l3.86 3.865-3.86 3.865a.842.842 0 0 0 1.193 1.188l3.86-3.865 3.86 3.865a.842.842 0 0 0 1.193-1.188l-3.874-3.865 3.86-3.865a.85.85 0 0 0 .001-1.188z" class="cls-1" data-name="Close icon" transform="translate(-335.3 -167.749)"/>
+</svg>
