@@ -151,6 +151,9 @@ p {
 		h4 {
 			font-size: 16px;
 		}
+		p {
+			line-height: normal;
+		}
 	}
 }
 
@@ -277,6 +280,36 @@ p {
 	padding: 60px 0;
 	min-height: 360px;
 	background: url(../img/dishwasher-array.png) no-repeat right 0, url(../img/dishwasher-bg.png) repeat-x;
+	background-size: auto 100%, auto 100%;
+	color: #fff;
+
+	.dishwasher-section__inner {
+		@media (min-width: 640px) {
+			padding-left: 8vw;
+			max-width: calc(540px + 8vw);
+		}
+		.heading2 {
+			margin-bottom: 8px;
+			font-weight: 700;
+			font-size: 32px;
+			line-height: 40px;
+			text-align: left;
+		}
+		p {
+			margin-bottom: 32px;
+			color: inherit;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+
+.fridge-section {
+	display: flex;
+	align-items: center;
+	padding: 60px 0;
+	min-height: 360px;
+	background: url(../img/fridge-array.png) no-repeat right 0, url(../img/fridge-bg2.png) repeat-x;
 	background-size: auto 100%, auto 100%;
 	color: #fff;
 

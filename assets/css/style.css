@@ -110,6 +110,8 @@ p {
     height: 100%; }
   .list-type.list-type-of-six h4 {
     font-size: 16px; }
+  .list-type.list-type-of-six p {
+    line-height: normal; }
 
 .list-part {
   display: flex;
@@ -223,6 +225,30 @@ p {
     line-height: 40px;
     text-align: left; }
   .dishwasher-section .dishwasher-section__inner p {
+    margin-bottom: 32px;
+    color: inherit;
+    font-size: 16px;
+    line-height: 24px; }
+
+.fridge-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  min-height: 360px;
+  background: url(../img/fridge-array.png) no-repeat right 0, url(../img/fridge-bg2.png) repeat-x;
+  background-size: auto 100%, auto 100%;
+  color: #fff; }
+  @media (min-width: 640px) {
+    .fridge-section .dishwasher-section__inner {
+      padding-left: 8vw;
+      max-width: calc(540px + 8vw); } }
+  .fridge-section .dishwasher-section__inner .heading2 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left; }
+  .fridge-section .dishwasher-section__inner p {
     margin-bottom: 32px;
     color: inherit;
     font-size: 16px;
