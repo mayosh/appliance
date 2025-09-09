@@ -758,4 +758,37 @@ p {
     .list-contact li.list-contact__request a:before {
       background-image: url(../img/icon-question.svg); }
 
+.fix-section {
+  display: flex;
+  flex-direction: column;
+  background: #F7F7F7; }
+  @media (min-width: 1200px) {
+    .fix-section .fix-section__image {
+      max-width: 640px;
+      flex: 0 0 640px; } }
+  .fix-section .fix-section__content {
+    padding: 26px 5%; }
+    @media (min-width: 1200px) {
+      .fix-section .fix-section__content {
+        padding: 26px 80px; } }
+  @media (max-width: 480px) {
+    .fix-section .heading2 {
+      font-size: 20px; } }
+  .fix-section p {
+    margin-bottom: 16px;
+    line-height: 18px; }
+  .fix-section .fix-section__list {
+    margin-bottom: 16px;
+    list-style: none; }
+    .fix-section .fix-section__list li a {
+      color: #000;
+      text-decoration: underline; }
+  .fix-section .link-more {
+    font-weight: 700; }
+    .fix-section .link-more:after {
+      display: none; }
+  @media (min-width: 1200px) {
+    .fix-section {
+      flex-direction: row; } }
+
 /*# sourceMappingURL=style.css.map */
